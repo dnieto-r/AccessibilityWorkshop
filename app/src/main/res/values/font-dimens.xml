@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="display1">32sp</dimen>
+    <dimen name="display2">24sp</dimen>
+    <dimen name="title1">36sp</dimen>
+    <dimen name="title2">20sp</dimen>
+    <dimen name="body1">20sp</dimen>
+    <dimen name="body2">20sp</dimen>
+    <dimen name="body3">20sp</dimen>
+    <dimen name="body4">16sp</dimen>
+    <dimen name="body5">16sp</dimen>
+    <dimen name="label1">20sp</dimen>
+    <dimen name="label2">16sp</dimen>
+</resources>

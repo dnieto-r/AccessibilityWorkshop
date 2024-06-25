@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Accessibility Workshop</string>
+    <string name="home_title">Taller de Accesibilidad</string>
+    <string name="home_subtitle">¡Domina las herramientas de Android!</string>
+    <string name="start_button">Empezar</string>
+    <string name="content_descriptions_screen">Content Descriptions</string>
+    <string name="live_regions_screen">Live Regions</string>
+    <string name="traversal_group_screen">Orden de Foco</string>
+    <string name="announce_screen">Announce For Accessibility</string>
+    <string name="announce_button">Botón anunciar</string>
+    <string name="roles_screen">Roles</string>
+    <string name="detect_talkback_screen">Detectar Talkback</string>
+    <string name="first_element">Primero</string>
+    <string name="second_element">Segundo</string>
+    <string name="third_element">Tercero</string>
+    <string name="fourth_element">Cuarto</string>
+    <string name="fifth_element">Quinto</string>
+    <string name="hello_world">Hola Mundo</string>
+    <string name="increment_button">Sumar</string>
+    <string name="reduce_button">Restar</string>
+    <string name="custom_locution">Esto es una locución de prueba</string>
+    <string name="test_button">Test</string>
+</resources>
