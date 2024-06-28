@@ -39,8 +39,8 @@ fun OnboardingScreen(navController: NavController) {
         Column (
             horizontalAlignment = Alignment.CenterHorizontally,
             modifier = Modifier
-                .padding(horizontal = 15.dp)
-                .semantics (mergeDescendants = true) {}
+                .padding(horizontal = 30.dp)
+                .semantics {}
         ) {
             Text(
                 text = stringResource(R.string.home_title),
@@ -57,8 +57,7 @@ fun OnboardingScreen(navController: NavController) {
         Icon(
             modifier = Modifier
                 .height(120.dp)
-                .semantics(mergeDescendants = true) {
-                    invisibleToUser()
+                .semantics {
                 },
             imageVector = ImageVector.vectorResource(R.drawable.logo_telefonica),
             contentDescription = "Logo de telefónica"

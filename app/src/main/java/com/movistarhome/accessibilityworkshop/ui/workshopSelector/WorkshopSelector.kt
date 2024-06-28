@@ -114,20 +114,6 @@ fun WorkshopSelectorScreen(navController: NavController) {
                 2.dp,
                 MaterialTheme.colorScheme.secondary
             ),
-            onClick = { navController.navigate(NavigationItem.ROLES.route) }) {
-            Text(stringResource(R.string.roles_screen), style = MaterialTheme.typography.headlineSmall)
-        }
-        Button(
-            modifier = Modifier.semantics (mergeDescendants = true) { },
-            colors = ButtonDefaults.outlinedButtonColors(
-                contentColor = MaterialTheme.colorScheme.background,
-                containerColor = MaterialTheme.colorScheme.secondary,
-            ),
-            shape = RoundedCornerShape(4.dp),
-            border = BorderStroke(
-                2.dp,
-                MaterialTheme.colorScheme.secondary
-            ),
             onClick = { navController.navigate(NavigationItem.DETECT_TALKBACK.route) }) {
             Text(stringResource(R.string.detect_talkback_screen), style = MaterialTheme.typography.headlineSmall)
         }
